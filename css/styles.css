@@ -60,12 +60,23 @@
   margin-top: 50px;
 }
 .contact {
+  height: 682px;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
 }
 form{
   background-color: transparent;
-  /* opacity: 0.1; */
+}
+::placeholder{
+  color: white;
+  margin-top: 0;
+  padding-top: 0;
+}
+input[type=text], [type=email]{
+  border: 1px solid white;
+  margin-top: 20px;
+  color: white;
 }
 #comment {
   height: 300px;
