@@ -92,3 +92,6 @@ input[type=text], [type=email]{
 .footer {
   text-align: center;
 }
+#design-text, #development-text, #management-text {
+  display: none;
+}
