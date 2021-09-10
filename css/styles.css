@@ -47,3 +47,15 @@
   display: flex;
   justify-content: space-around;
 }
+.portfolio {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+.row1>img {
+  margin-right: 30px;
+  margin-top: 50px;
+}
