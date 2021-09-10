@@ -70,3 +70,11 @@ form{
 #comment {
   height: 300px;
 }
+.follow {
+  margin-top: 30px;
+  margin-bottom: 30px;justify-content: center;
+  display: flex;
+}
+.follow>img{
+  margin-left: 15px;
+}
