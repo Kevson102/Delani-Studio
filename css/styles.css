@@ -59,3 +59,14 @@
   margin-right: 30px;
   margin-top: 50px;
 }
+.contact {
+  color: white;
+  text-align: center;
+}
+form{
+  background-color: transparent;
+  /* opacity: 0.1; */
+}
+#comment {
+  height: 300px;
+}
