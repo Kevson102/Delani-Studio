@@ -59,6 +59,13 @@
   margin-right: 30px;
   margin-top: 50px;
 }
+#project8-hover{
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
+  text-align: left;
+  display: none;
+}
 .contact {
   height: 682px;
   background-repeat: no-repeat;

@@ -11,4 +11,9 @@ $(document).ready(function(){
     $("#management-text").toggle();
     $("#management").toggle();
   });
+  $(".project8").hover(function(){
+    $(this).css ("opacity", "0.5")
+  }, function(){
+    $(this).css("opacity", "1")
+  });
 });
