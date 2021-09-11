@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 .welcome {
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,11 +32,26 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.about p{
+  font-size: 20px;
+  margin: 2px;
+}
+.paragraph1{
+  margin-bottom: 10px;
+}
 .services {
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
+}
+.services p{
+  font-size: 20px;
+}
+.design:hover, .development:hover, .management:hover {
+  cursor: pointer;
 }
 .section {
   margin-top: 30px;
@@ -107,11 +123,12 @@ input[type=text], [type=email]{
   margin-right: 30px;
   color: white;
 }
-#comment {
+.comment {
   margin-top: 20px;
   height: 300px;
   background-color: transparent;
   border: 1px solid white;
+  color: white;
   padding: 10px;
 }
 .follow {

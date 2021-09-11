@@ -1,3 +1,5 @@
+              // USER INTERFACE
+
 $(document).ready(function(){
   $(".design").click(function(){
     $("#design-text").toggle();
@@ -92,3 +94,10 @@ $(document).ready(function(){
     $(".project8").show();
   });
 });
+
+var name1 = $("input#mce-FNAME").val();
+$(document).ready(function(){
+  $("#mc-embedded-subscribe").click(function(){
+    alert("Thank you for reaching out to us. We really value your feedback.")
+  })
+})
