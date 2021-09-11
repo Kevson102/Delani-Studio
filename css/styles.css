@@ -59,12 +59,30 @@
   margin-right: 30px;
   margin-top: 50px;
 }
-#project8-hover{
-  border: 10px solid black;
-  height: 250px;
-  width: 250px;
-  text-align: left;
+#outer {
+  position: static;
+  width: 380px;
+  height: 300px;
+  margin-top: 50px;
   display: none;
+}
+#mid {
+  background-color: black;
+  opacity: 0.8;
+  position: static;
+  width: 380px;
+  height: 300px;
+}
+#inner {
+  position: relative;
+  background-color: transparent;
+  border: 5px solid white;
+  color: white;
+  text-align: left;
+  width: 280px;
+  height: 250px;
+  top: 8%;
+  left: 13%;
 }
 .contact {
   height: 682px;

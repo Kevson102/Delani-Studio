@@ -11,9 +11,12 @@ $(document).ready(function(){
     $("#management-text").toggle();
     $("#management").toggle();
   });
-  $(".project8").hover(function(){
-    $(this).css ("opacity", "0.5")
-  }, function(){
-    $(this).css("opacity", "1")
+  $(".project8").mouseenter(function(){
+    $("#outer").show();
+    $(".project8").hide();
+  });
+  $(".project8").mouseleave(function(){
+    $("#outer").hide();
+    $(".project8").show();
   });
 });
