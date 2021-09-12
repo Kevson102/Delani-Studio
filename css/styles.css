@@ -76,13 +76,15 @@
 .row1>img {
   margin-right: 20px;
   margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
   height: 250px;
   width: 250px;
 }
 .outer {
-  margin-right: 30px;
+  margin-right: 20px;
   position: static;
-  width: 240px;
+  width: 250px;
   height: 250px;
   margin-top: 50px;
   display: none;
@@ -91,7 +93,7 @@
   background-color: black;
   opacity: 0.8;
   position: static;
-  width: 240px;
+  width: 250px;
   height: 250px;
 }
 .inner {
@@ -103,7 +105,7 @@
   width: 200px;
   height: 200px;
   top: 8%;
-  left: 9%;
+  left: 10%;
 }
 .contact {
   height: 682px;
@@ -155,7 +157,39 @@ input[type=text], [type=email]{
 }
 
 /* css responsiveness */
-@media screen and (min-width:320px) and (max-width:374px) {
+@media screen and (min-width:375px) and (max-width:480px) {
+  .comment{
+    width: 350px;
+  }
+
+  #mce-FNAME, #mce-EMAIL {
+    width: 300px;
+  }
+  .row1{
+    flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+  .comment{
+    width: 450px;
+  }
+
+  #mce-FNAME, #mce-EMAIL {
+    width: 400px;
+  }
+  .row1{
+    flex-wrap: wrap;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .comment{
+    width: 600px;
+  }
+  .row1{
+    flex-wrap: wrap;
+    }
+}
+/* @media screen and (min-width:320px) and (max-width:374px) {
 
 }
 @media screen and (min-width:375px) and (max-width:480px) {
@@ -235,4 +269,4 @@ input[type=text], [type=email]{
 }
 @media screen and (min-width:1201px){
   
-}
+} */
