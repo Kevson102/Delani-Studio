@@ -98,6 +98,6 @@ $(document).ready(function(){
 var name1 = $("input#mce-FNAME").val();
 $(document).ready(function(){
   $("#mc-embedded-subscribe").click(function(){
-    alert("Thank you for reaching out to us. We really value your feedback.")
+    alert("Thank you for reaching out to us. We really value your feedback. YOU WILL RECEIVE A SUBSCRIPTION CONFIRMATION MESSAGE BELOW THIS FORM SHORTLY")
   })
 })
