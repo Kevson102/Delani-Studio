@@ -165,9 +165,9 @@ input[type=text], [type=email]{
   #mce-FNAME, #mce-EMAIL {
     width: 200px;
   }
-  .row1{
+  .row1, .follow{
     flex-wrap: wrap;
-    }
+  }
 }
 @media screen and (min-width:375px) and (max-width:480px) {
   .comment{
@@ -179,7 +179,7 @@ input[type=text], [type=email]{
   }
   .row1{
     flex-wrap: wrap;
-    }
+  }
 }
 @media screen and (min-width:481px) and (max-width:768px) {
   .comment{
@@ -191,7 +191,7 @@ input[type=text], [type=email]{
   }
   .row1{
     flex-wrap: wrap;
-    }
+  }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
   .comment{
@@ -199,7 +199,7 @@ input[type=text], [type=email]{
   }
   .row1{
     flex-wrap: wrap;
-    }
+  }
 }
 /* @media screen and (min-width:320px) and (max-width:374px) {
 
