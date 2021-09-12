@@ -157,6 +157,18 @@ input[type=text], [type=email]{
 }
 
 /* css responsiveness */
+@media screen and (min-width:200px) and (max-width:374px) {
+  .comment{
+    width: 200px;
+  }
+
+  #mce-FNAME, #mce-EMAIL {
+    width: 200px;
+  }
+  .row1{
+    flex-wrap: wrap;
+    }
+}
 @media screen and (min-width:375px) and (max-width:480px) {
   .comment{
     width: 350px;
