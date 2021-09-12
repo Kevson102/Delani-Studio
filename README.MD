@@ -27,7 +27,8 @@ https://kevson102.github.io/Delani-Studio/
 3. Once the description is displayed as described in 2 above, clicking again brings back the icon
 4. Hovering over the portfolio icon reveals the name of the project.
 5. The user can enter their name, email, and a message via a form in the contact section of the landing page.
-6. On clicking submit, the user gets a pop up notifying them that their message has been received.
+6. On clicking subscribe, the user gets a pop up notifying them that their message has been received.
+7. The user gets a message "Thank you for subscribing" above the subscribe button after the inputs reset.
 ## Technologies Used
 1. HTML
 2. CSS
