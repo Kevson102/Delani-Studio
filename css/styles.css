@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 .welcome {
+  background-image: url('../images/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
-  height: 1100px;
+  background-size: 100% 100%;
+  /* width: auto; */
+  /* height: auto; */
 }
 .welcome-content {
-  padding-top: 350px;
+  padding-top: 250px;
 }
 .welcome-content>img {
   display: block;
@@ -14,14 +15,15 @@
   margin-right: auto;
 }
 #mouse-click {
-  margin-top: 200px;
+  margin-top: 150px;
+  padding-bottom: 50px;
 }
 .welcome-content>h1 {
-  margin-top: 75px;
+  margin-top: 20px;
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 70px;
+  font-size: 50px;
 }
 .welcome-content>h5 {
   color: white;
@@ -33,7 +35,7 @@
   margin-bottom: 25px;
 }
 .about p{
-  font-size: 20px;
+  font-size: 15px;
   margin: 2px;
 }
 .paragraph1{
@@ -48,7 +50,7 @@
   padding-bottom: 150px;
 }
 .services p{
-  font-size: 20px;
+  font-size: 15px;
 }
 .design:hover, .development:hover, .management:hover {
   cursor: pointer;
@@ -72,14 +74,16 @@
   justify-content: center;
 }
 .row1>img {
-  margin-right: 30px;
+  margin-right: 20px;
   margin-top: 50px;
+  height: 250px;
+  width: 250px;
 }
 .outer {
   margin-right: 30px;
   position: static;
-  width: 365px;
-  height: 300px;
+  width: 240px;
+  height: 250px;
   margin-top: 50px;
   display: none;
 }
@@ -87,8 +91,8 @@
   background-color: black;
   opacity: 0.8;
   position: static;
-  width: 365px;
-  height: 300px;
+  width: 240px;
+  height: 250px;
 }
 .inner {
   position: relative;
@@ -96,10 +100,10 @@
   border: 5px solid white;
   color: white;
   text-align: left;
-  width: 280px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   top: 8%;
-  left: 12%;
+  left: 9%;
 }
 .contact {
   height: 682px;
@@ -126,11 +130,15 @@ input[type=text], [type=email]{
 .comment {
   margin-top: 20px;
   height: 300px;
+  width: 1100px;
   background-color: transparent;
   border: 1px solid white;
   color: white;
   padding: 10px;
 }
+/* textarea{
+  columns: "100";
+} */
 .follow {
   margin-top: 30px;
   margin-bottom: 30px;justify-content: center;
@@ -144,4 +152,87 @@ input[type=text], [type=email]{
 }
 #design-text, #development-text, #management-text {
   display: none;
+}
+
+/* css responsiveness */
+@media screen and (min-width:320px) and (max-width:374px) {
+
+}
+@media screen and (min-width:375px) and (max-width:480px) {
+  .comment{
+    width: 300px;
+  }
+  #mce-FNAME, #mce-EMAIL {
+    width: 250px;
+  }
+  .row1{
+    display: inline-block;
+    }
+  .outer{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+  }
+  .row1>img{
+    margin-right: 5px;
+  }
+  .outer{
+    margin-right: 5px;
+
+  }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+  .comment{
+    width: 500px;
+  }
+
+  #mce-FNAME, #mce-EMAIL {
+    width: 400px;
+  }
+  .row1{
+    display: inline-block;
+    }
+  .outer{
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+  }
+  .row1>img{
+    margin-right: 5px;
+  }
+  .outer{
+    margin-right: 5px;
+
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .comment{
+    width: 700px;
+  }
+  .row1{
+    display: inline-block;
+    }
+  .outer{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+  }
+  .row1>img{
+    margin-right: 5px;
+  }
+  .outer{
+    margin-right: 5px;
+
+  }
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+  .comment{
+    width: 900px;
+  }
+  .row1>img{
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width:1201px){
+  
 }
