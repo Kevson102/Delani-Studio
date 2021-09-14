@@ -18,9 +18,9 @@ The Delani Studio website is an online landing page which individuals interested
 ## Live link.
 https://kevson102.github.io/Delani-Studio/
 
-## Demo
-<video src="./Demo/Demo.mp4">Website Demo</video>
-
+## [Demo](./Demo/Demo.mp4)
+#
+#
 ## Known Bugs
 * NONE
 
